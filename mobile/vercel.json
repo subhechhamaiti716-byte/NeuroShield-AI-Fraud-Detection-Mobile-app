@@ -1,9 +1,4 @@
 {
   "version": 2,
-  "rewrites": [
-    {
-      "source": "/((?!_expo/|assets/|favicon.png).*)",
-      "destination": "/index.html"
-    }
-  ]
+  "cleanUrls": true
 }
