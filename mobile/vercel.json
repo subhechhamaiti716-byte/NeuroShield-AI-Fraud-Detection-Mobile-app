@@ -1,7 +1,9 @@
 {
   "version": 2,
-  "public": true,
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/((?!_expo/|assets/|favicon.png).*)",
+      "destination": "/index.html"
+    }
   ]
 }
