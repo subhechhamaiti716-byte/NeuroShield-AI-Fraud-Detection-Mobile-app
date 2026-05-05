@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+__pycache__/
+*.pyc
+env/
+venv/
+.env
+
+# Mobile build files
+.expo/
+dist/
+build/
+android/
+ios/
+
+# Local databases and logs
+*.db
+*.db-journal
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/

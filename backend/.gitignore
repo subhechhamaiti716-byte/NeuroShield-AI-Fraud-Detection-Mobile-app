@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+env/
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# ML Models
+*.pkl
+fraud_model.pkl
+scaler.pkl
+
+# IDEs
+.vscode/
+.idea/
+*.swp
